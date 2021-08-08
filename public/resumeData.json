@@ -1,0 +1,104 @@
+{
+  "main": {
+    "name": "Akshitha H",
+    "occupation": "Software developer",
+    "description": "This profile showcasing my educational details, work history and accomplishments",
+    "image": "profilepic.jpg",
+    "bio": "Professional and diligent full stack developer with record of accomplishment of delivering excellent customer experience and product development for highly regulated environment and high profile organizations.",
+    "languagepreference" :  "My preferred langauage is Java.",
+    "contactmessage": "You can reachout me anytime in Linkedin, cell phone",
+    "email": "shettyakshitha@gmail.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/akshitha-shetty-859023145/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/AkshithaH",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "medium",
+        "url": "https://akshithashetty.medium.com/about",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Visvesvaraya Technological University (VTU)",
+        "degree": "Computer Science and Engineering ",
+        "graduated": "JULY 2016",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "project1" : [{
+          "ProjectName" : "Matrimony database",
+           "YearCompletion": "DEC 2014",
+           "description" : "Developed Matrimony database system."
+      }
+    ],
+    "project2" :[{
+       "ProjectName" : "A privacy-preserving framework for managing ad requests and billing information",
+        "YearCompletion" : "March 2016",
+        "description" : "Developed mechanism to preserve privacy of users while shoping using online portal.It prohibits server distributing ads from identifying users."
+    }],
+
+  "projects1": [
+          {
+          "company" : "The Boeing company(sep 2019-present)"
+          },
+          {
+            "category": "Developed complex system to process huge customer data."
+          },
+          {
+            "category": "Developed system to process original and revised data for Airplanes."
+          },
+          {
+            "category": "Integrated Coverity scanning to handle hign priority security issues."
+          },
+          {
+            "category": "built CI/CD pipeline using TFS azure devops."
+          },
+          {
+            "category": "Code supports to handle 777x,737,747 boeing models."
+          },
+          {
+            "category": "Implemented feature to delete wrongly published data from all interrelated systems."
+          }
+        ],
+         "projects2": [
+           {
+             "company" :"Mindtree Ltd(July 2016 - Sep 2019)"
+           }, 
+          {
+            "category": "Built platform to monitor wastage of food in cafeteria (Cafeteria management in system)"
+          },
+          {
+            "category": "Built platform to live stream from cameras in different sites."
+          },
+          {
+            "category": "Integrated API to live stream data from camera to Central managerment tool."
+          },
+          {
+            "category": "Written API to get water & electricity comsuption in the building(IOT Server)."
+          },
+          {
+            "category": "Integrated Sensu to integration platform. Integrated platform is built to maintain entire devops process."
+          },
+          {
+            "category": "Top 20 trainee in Mindtree Kalindga campus."
+          },
+          {
+            "category": "Awarded as outstanding performer in 2017-18."
+          }
+         ]
+    }
+}
+ 
+
+
