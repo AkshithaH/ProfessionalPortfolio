@@ -17,5 +17,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "PerfessionalPortfolio -d build"
+
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
