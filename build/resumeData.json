@@ -62,7 +62,7 @@
             "category": "Integrated Coverity scanning to handle hign priority security issues."
           },
           {
-            "category": "Built CI/CD pipeline using TFS azure devops."
+            "category": "built CI/CD pipeline using TFS azure devops."
           },
           {
             "category": "Code supports to handle 777x,737,747 boeing models."
