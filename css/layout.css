@@ -12,7 +12,9 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Footer
+   g. Testimonials Section
+   h. Contact Section
+   i. Footer
 
 ===================================================================== */
 
@@ -25,42 +27,14 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
-header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
-}
-
-/* vertically center banner section */
-header:before {
-   content: '';
-   display: inline-block;
-   vertical-align: middle;
-   height: 100%;
-}
-header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
-   text-align: center;
-}
-
-header .banner-text { width: 100%; height: 25%; }
+header .banner-text { width: 100%; text-align: center; ;}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-align: center;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -68,6 +42,7 @@ header .banner-text h3 {
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-align: center;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -76,9 +51,11 @@ header .banner-text h3 a {
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
+   border-color: #757274;
    border-color: rgba(150, 150, 150, .1);
+   text-align: center;
 }
+
 
 /* header social links */
 header .social {
@@ -184,46 +161,46 @@ ul#nav li.current a { color: #F06000; }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+header {
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+header a, #about a:visited  { color: #fff; }
+header a:hover, #about a:focus { color: #11ABB0; }
 
-#about h2 {
+header h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+header p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
+header .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+header .contact-details { width: 41.66667%; }
+header .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+header .main-col { padding-right: 5%; }
+header .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+header.download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+header .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -637,6 +614,70 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
+
+/* ------------------------------------------------------------------
+/* g. Testimonials
+/* ------------------------------------------------------------------ */
+
+#testimonials {
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
+#testimonials .text-container {
+   padding-top: 96px;
+   padding-bottom: 66px;
+}
+#testimonials h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#testimonials h1 span { display: none; }
+#testimonials .header-col { padding-top: 9px; }
+#testimonials .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10d";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+
+/*	Blockquotes */
+#testimonials blockquote {
+   margin: 0 0px 30px 0px;
+   padding-left: 0;
+   position: relative;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+#testimonials blockquote:before { content: none; }
+#testimonials blockquote p {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 24px;
+   line-height: 48px;
+   color: #fff
+}
+#testimonials blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+   color: #fff;
+}
+#testimonials blockquote cite:before { content: "\2014 \0020"; }
+#testimonials blockquote cite a,
+#testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
