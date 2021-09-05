@@ -33,19 +33,19 @@
         "school": "Visvesvaraya Technological University (VTU)",
         "degree": "Computer Science and Engineering ",
         "graduated": "JULY 2016",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": ""
       }
     ],
     "project1" : [{
-          "ProjectName" : "Matrimony database",
+          "ProjectName" : "DBMS project on matrimonial database.",
            "YearCompletion": "DEC 2014",
            "description" : "Developed Matrimony database system."
       }
     ],
     "project2" :[{
-       "ProjectName" : "A privacy-preserving framework for managing ad requests and billing information",
+       "ProjectName" : "A privacy preserving framework for managing mobile ad requests and billing information.",
         "YearCompletion" : "March 2016",
-        "description" : "Developed mechanism to preserve privacy of users while shoping using online portal.It prohibits server distributing ads from identifying users."
+        "description" : "In our model, the client’s ad-requests reach the server through an intermediate node called primary peer.A mechanism for Billing process is implemented without disclosing user identities."
     }],
 
   "projects1": [
