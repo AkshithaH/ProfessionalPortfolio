@@ -54,6 +54,8 @@
           },
           {
             "category": "Developed complex system to process huge customer data."
+          },{
+            "category":"Gathered and defined customer requirements to develop clear specifications for project plans."
           },
           {
             "category": "Developed system to process original and revised data for Airplanes."
@@ -76,7 +78,7 @@
              "company" :"Mindtree Ltd(July 2016 - Sep 2019)"
            }, 
           {
-            "category": "Built platform to monitor wastage of food in cafeteria (Cafeteria management in system)"
+            "category": "Built platform to monitor wastage of food in cafeteria (Cafeteria management system)"
           },
           {
             "category": "Built platform to live stream from cameras in different sites."
@@ -88,7 +90,7 @@
             "category": "Written API to get water & electricity comsuption in the building(IOT Server)."
           },
           {
-            "category": "Integrated Sensu to integration platform. Integrated platform is built to maintain entire devops process."
+            "category": "Integrated Sensu to integration platform. Integration platform is built to maintain entire devops process."
           },
           {
             "category": "Top 20 trainee in Mindtree Kalindga campus."
