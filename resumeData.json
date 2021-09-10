@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Akshitha Handakunda",
+    "name": "Akshitha H",
     "occupation": "Software developer",
     "description": "This profile showcasing my educational details, work history and accomplishments",
     "image": "profilepic.jpg",
@@ -21,7 +21,7 @@
       },
       {
         "name": "medium",
-        "url": "https://akshithashetty.medium.com",
+        "url": "https://akshithashetty.medium.com/about",
         "className": "fa fa-medium"
       }
     ]
@@ -33,19 +33,19 @@
         "school": "Visvesvaraya Technological University (VTU)",
         "degree": "Computer Science and Engineering ",
         "graduated": "JULY 2016",
-        "description": ""
+        "description": "Computer Science Engineering consists of a variety of topics related to computation such as analysis of algorithms, programming languages, program design, computer software & hardware."
       }
     ],
     "project1" : [{
-          "ProjectName" : "DBMS project on matrimonial database.",
+          "ProjectName" : "Matrimony database",
            "YearCompletion": "DEC 2014",
            "description" : "Developed Matrimony database system."
       }
     ],
     "project2" :[{
-       "ProjectName" : "A privacy preserving framework for managing mobile ad requests and billing information.",
+       "ProjectName" : "A privacy-preserving framework for managing ad requests and billing information",
         "YearCompletion" : "March 2016",
-        "description" : "In our model, the client’s ad-requests reach the server through an intermediate node called primary peer.A mechanism for Billing process is implemented without disclosing user identities."
+        "description" : "Developed mechanism to preserve privacy of users while shoping using online portal.It prohibits server distributing ads from identifying users."
     }],
 
   "projects1": [
@@ -56,7 +56,7 @@
             "category": "Developed complex system to process huge customer data."
           },
           {
-            "category":"Gathered and defined customer requirements to develop clear specifications for project plans." 
+            "category":"Gathered and defined customer requirements to develop clear specifications for project plans."
           },
           {
             "category": "Developed system to process original and revised data for Airplanes."
@@ -85,7 +85,7 @@
             "category": "Built platform to live stream from cameras in different sites."
           },
           {
-            "category": "Integrated API to live stream data from camera to Central management tool."
+            "category": "Integrated API to live stream data from camera to Central managerment tool."
           },
           {
             "category": "Written API to get water & electricity comsuption in the building(IOT Server)."
